@@ -26,7 +26,11 @@
 
 - next thing is to automate the browser
 
-- for that choose _Open Browser_ activity from list, then add _Type Into_ activity.
+- for that choose _Open Browser_ activity.
+- set browser type to Chrome
+  ![Set Browser type](./screenshots/image7.png 'image')
+
+from list, then add _Type Into_ activity.
 
 - give _userName_ variable where v store value to the text box.
   ![Type Into Activity](./screenshots/image4.png 'image')
