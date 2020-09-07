@@ -27,6 +27,9 @@
 - next thing is to automate the browser
 
 - for that choose _Open Browser_ activity.
+- set url
+  ![Set Url](./screenshots/image8.png 'image')
+
 - set browser type to Chrome
   ![Set Browser type](./screenshots/image7.png 'image')
 
