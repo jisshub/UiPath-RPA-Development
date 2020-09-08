@@ -69,3 +69,43 @@ Aim - build a robot that writes some text to notepad.
 - **quick development**: the amount of time required to build the robot, quicker the development time, the better for RPA.
 
 ---
+
+## Wizards in RPA
+
+- Screen Scraping activity :
+  ![Screen Scrapping](./screenshots/image12.png 'image')
+
+- Data Scrapping activity: to scrape the data from UI. like ui of a site ..
+
+- UI Explorer: to identify selectors.
+  selectors are a piece of code that identifies an element. click it. later click on **Indicate Element**. point to a our project dir.
+
+  ![UI Explorer](./screenshots/image13.png 'image')
+
+- Snippets are files that can be reused in our applications. ie reusa
+
+  ![Delay Task](./screenshots/image14.png 'image')
+
+- v add **Delay Snippets**.
+
+- here v delay the task by 3 secs and later by 10secs. so b4 writing to file, waits for 3s then wait for 10s to close the process.
+
+## Properties Panel
+
+![Delay Task](./screenshots/image15.png 'image')
+
+- Delay After: amount to time to delay after that activity is executed.
+
+- Delay Before: amount to time to delay before executing this activity.
+
+- always best practice to rename the activity name.
+
+## Creating Variables
+
+![Create Variables](./screenshots/imag16.png 'image')
+
+- here v create available called **FirstName**.
+
+- assign that variable to Text property of Type text activity.
+
+---
