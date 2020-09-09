@@ -131,7 +131,7 @@ Aim - build a robot that writes some text to notepad.
 
 - when v run a robot, it runs everything sequentially.
 
-- we can change the scope pf variable for accessiblity.
+- we can change the scope pf variable for accessibility.
 
 ![Variable Scope](./screenshots/image19.png 'image')
 
@@ -140,3 +140,41 @@ Aim - build a robot that writes some text to notepad.
 ## Arguments
 
 - purpose of argument is to send data from one file to another file.
+
+![Argument creation](./screenshots/image24.png 'image')
+
+- here v create an argument called _myArgument_ with direction _IN/OUT_ means it is accessible inside and outside this process.
+
+![Arguments](./screenshots/image20.png 'image')
+
+- here v assign an argument, later output it.
+
+---
+
+## Data Transfer
+
+- how to access the argument in one process to another process.
+
+- cant access the arguments, so assign it to variable expression first.
+
+- only then possible to access the value of that argument.
+
+1. Add an Invoke Workflow activity. Access the process from which argument to be accessed. here it **Main.xaml** process.
+
+![Step 1](./screenshots/image25.png 'image')
+
+2. first create a variable in current process.
+
+![Step 1](./screenshots/image21.png 'image')
+
+3. click on **import argument** and later access variable expression.
+
+![Step 2](./screenshots/image22.png 'image')
+
+4. then in message box give that variable expression
+
+![Step 3](./screenshots/image23.png 'image')
+
+- this how we can access the argument from other process.
+
+---
