@@ -108,4 +108,35 @@ Aim - build a robot that writes some text to notepad.
 
 - assign that variable to Text property of Type text activity.
 
+- can also create my pressing _ctrl + k_.
+
+![Create Variables - 2](./screenshots/image17.png 'image')
+
+- open expression editor and press _ctrl + k_ - set variable.
+
+## Assigning Values to Variable
+
+- use **Assign Activity**
+
+![Assign Variables](./screenshots/image18.png 'image')
+
+- here v assign value to _FirstName_
+  variable.
+
+- also v can create a variable also. _Qualification_ is newly created variable.
+
 ---
+
+## Variable Scope
+
+- when v run a robot, it runs everything sequentially.
+
+- we can change the scope pf variable for accessiblity.
+
+![Variable Scope](./screenshots/image19.png 'image')
+
+---
+
+## Arguments
+
+- purpose of argument is to send data from one file to another file.
