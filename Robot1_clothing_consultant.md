@@ -129,4 +129,28 @@
 
 ## Display Weather, Temperature, Suggestion in MessageBox
 
+- Drag a message box activity to the main.
+- edit the text property of the same.
+
+  ![Message Box](./screenshots/robot1/image25.jpg 'image')
+
+---
+
+## Adding IF statements to check whether raining/not.
+
+- add a warning in the message box if there is raining.
+
+- if weather is raining, then assign a value to _rainGear_ variable
+
+  ![If Condition](./screenshots/robot1/image26.jpg 'image')
+
+- here **weatherCondition.Contains("rain")** means
+  whether _weatherCondition_ contains term _rain_.
+
+- using **OR** condition as well
+
+![OR Condition](./screenshots/robot1/image27.jpg 'image')
+
+## **-time: 3: 45**
+
 ---
