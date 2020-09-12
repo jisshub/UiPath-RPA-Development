@@ -138,7 +138,9 @@
 
 ## Adding IF statements to check whether raining/not.
 
-- add a warning in the message box if there is raining.
+- add a warning in the flowchart to show in message box if there is raining. for that add If condition.
+
+  ![If Condition](./screenshots/robot1/image28.jpg 'image')
 
 - if weather is raining, then assign a value to _rainGear_ variable
 
@@ -151,6 +153,16 @@
 
 ![OR Condition](./screenshots/robot1/image27.jpg 'image')
 
-## **-time: 3: 45**
+- in order for the _if condition_ to execute, we have to drag in between **Start and flow decision**.
+
+![OR Condition](./screenshots/robot1/image30.jpg 'image')
+
+- next add _rainGear_ variable to the message box. finally, Debug the process.
+
+> ![Final Result](./screenshots/robot1/image31.jpg 'image')
+
+> ![Main Process](./screenshots/robot1/image32.jpg 'image')
 
 ---
+
+##
